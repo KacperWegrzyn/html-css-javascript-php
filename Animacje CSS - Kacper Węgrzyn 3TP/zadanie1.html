@@ -1,0 +1,63 @@
+<html>     
+    <head>            
+        <style>      
+            #div1{width: 300px; float: left; margin-right: 100px;}
+            img{width: 300px;}
+            #div1-1{width: 300px; height: 0px; background-color: black; opacity: 100%; color: white; position: relative; top: 0px; padding: 0px; text-align: center; font-size: 30px; font-family: lato;}
+            #div1:hover div{transition-duration: 200ms; width: 230px; height: 30px; top: -100px; padding: 35px; opacity: 60%;}
+            #div1:hover #img1{opacity: 80%; transition-duration: 200ms;}
+
+            #div2{position: absolute; left: 500px; font-family: lato;}
+            #div2-1{background-color: rgb(179, 226, 178); width: 150px; height: 270px; font-size: 0px; padding: 20px; border-radius: 50px; color: white;}
+            #img2{left: 0px; float: left;}
+            #div2-1-1{display: none;}
+            #div2-1:hover #div2{left: 350px; transition-duration: 200ms;}
+            #div2-1:hover{width: 600px; background-color: rgb(84, 238, 123); font-size: 20px; border-radius: 10px; transition-duration: 200ms; text-shadow: 4px 4px 12px black;}
+            #div2-1:hover #img2{width: 400px; left: 200px; transition-duration: 200ms;}
+            #div2-1:hover #div2-1-1{display: block;}
+
+            #div3{background-color: rgb(20, 26, 34); width: 790; height: 1000px; position: absolute; top: 500px; padding: 550px;}
+            .lampka{width: 50px; height: 50px; float: left; margin-right: 100px; border-radius: 25px;}
+            #red{background-color: rgb(255, 36, 36);}
+            #blue{background-color: rgb(44, 44, 221);}
+            #green{background-color: rgb(0, 211, 0);}
+            #white{background-color: white;}
+            #yellow{background-color: yellow;}
+            #red:hover{background-color: white; box-shadow: 0 0 30px rgb(255, 36, 36), 0 0 60px rgb(255, 36, 36), 0 0 120px rgb(255, 36, 36);}
+            #blue:hover{background-color: white; box-shadow: 0 0 30px rgb(44, 44, 221), 0 0 30px rgb(44, 44, 221), 0 0 60px rgb(44, 44, 221),  0 0 120px rgb(44, 44, 221), 0 0 120px rgb(44, 44, 221);}
+            #green:hover{background-color: white; box-shadow: 0 0 30px rgb(0, 211, 0), 0 0 60px rgb(0, 211, 0), 0 0 120px rgb(0, 211, 0);}
+            #white:hover{background-color: white; box-shadow: 0 0 30px white, 0 0 60px white, 0 0 120px white;}
+            #yellow:hover{background-color: white; box-shadow: 0 0 30px yellow, 0 0 60px yellow, 0 0 120px yellow;}
+        </style> 
+    </head> 
+    <body>
+        <div id="div1">
+            <img id="img1" src="monke1.jpg">
+            <div id="div1-1">
+                MONKE
+            </div>
+        </div>
+
+        <div id="div2">
+            <div id="div2-1">
+                <img id="img2" src="monke2.png">
+                <div id="div2-1-1">
+                    <i>"Reject humanity, return to monke"</i><br>
+                    - Harambe<br><br>
+                    <i>"Mmm... Monkey"</i><br>
+                    - Master Oogway<br><br>
+                    <i>"Where banana?"</i><br>
+                    - Orangutan<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div id="div3">
+            <div class="lampka" id="red"></div>
+            <div class="lampka" id="blue"></div>
+            <div class="lampka" id="green"></div>
+            <div class="lampka" id="white"></div>
+            <div class="lampka" id="yellow"></div>
+        </div>
+    </body> 
+</html> 

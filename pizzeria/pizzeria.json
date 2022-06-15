@@ -1,0 +1,35 @@
+{"pizzeria":[
+    {"pizza":[
+        {"id":1, "nazwa":"Margarita", "skladniki":"szynka, ser, pieczarki", "cena":25},
+        {"id":2, "nazwa":"Domowa", "skladniki":"kurczak, groszek, pomidor", "cena":22},
+        {"id":3, "nazwa":"Diablo", "skladniki":"chili, ananas", "cena":27},
+        {"id":4, "nazwa":"Rafaelo", "skladniki":"pepperoni, ciasto", "cena":21},
+        {"id":5, "nazwa":"Italiano", "skladniki":"kukurydza, cebula, boczek, oregano", "cena":37}
+    ]},
+    
+    {"kebab":[
+        {"id":11, "nazwa":"Mały kebab", "skladniki":"pomidor, kapusta", "cena":7},
+        {"id":12, "nazwa":"Duży kebab", "skladniki":"boczek, sos, ogórek", "cena":10},
+        {"id":13, "nazwa":"Rollo kebab", "skladniki":"kurczak, korniszon, chilli, sałata", "cena":12},
+        {"id":14, "nazwa":"Vege kebab", "skladniki":"pomidor, sałata, kapusta, tofu", "cena":4}
+    ]},
+
+    {"hotdog":[
+        {"id":21, "nazwa":"Classic", "skladniki":"Parówka z szynki, cebula", "cena": 5},
+        {"id":22, "nazwa":"Amerykański", "skladniki":"Parówka wołowa", "cena": 4.50},
+        {"id":23, "nazwa":"Francuski", "skladniki":"Parówka z szynki", "cena": 6.50},
+        {"id":24, "nazwa":"Premium", "skladniki":"Kabanos, sałata, pomidor", "cena": 10},
+        {"id":25, "nazwa":"W bułce czosnkowej", "skladniki":"Parówka wieprzowa, ogórek, sałata", "cena": 7}
+    ]},
+
+    {"napoje":[
+        {"id":31, "nazwa":"Pepsi", "skladniki":"", "cena": 7},
+        {"id":32, "nazwa":"Coca-Cola", "skladniki":"", "cena": 7.50},
+        {"id":33, "nazwa":"Grappa Ice", "skladniki":"", "cena": 4},
+        {"id":34, "nazwa":"Mirinda", "skladniki":"", "cena": 6.70},
+        {"id":35, "nazwa":"Tymbark", "skladniki":"", "cena": 3.50},
+        {"id":36, "nazwa":"Oranżada", "skladniki":"", "cena": 4.50},
+        {"id":37, "nazwa":"Schweppes", "skladniki":"", "cena": 5},
+        {"id":38, "nazwa":"Woda", "skladniki":"", "cena": 1.80}
+    ]}
+]}

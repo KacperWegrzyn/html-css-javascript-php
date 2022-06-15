@@ -1,0 +1,103 @@
+<head>
+    <style>
+        #lista{position: absolute; top: 300px;}
+        #lista li{list-style: none;}
+        #lista ul{position: absolute; top: 0; left: 170px; padding-left: 5px; visibility: hidden;}
+        #lista li {padding-bottom: 5px; position: relative;}
+        #lista li:hover ul {visibility: visible; width: auto; height: auto;}
+        #lista div, #lista li:hover li div{display: block; padding: 10px; width: 150px; background-color: lightcoral; border-radius: 5px;}
+        #lista li:hover div, #lista li:hover li:hover div{background-color: darkred;}
+
+        #menu{background-color: indigo; height: 50px;}
+
+        .start-opcje, 
+        .aktualnosci-opcje,
+        .szkolenia-opcje,
+        .uslugi-opcje
+        {display: none;}
+
+        .start, 
+        .aktualnosci,
+        .szkolenia,
+        .uslugi
+        {float: left; border-right: solid 1px white; height: 35px; width: 150px; padding-top: 15px; color: white; text-align: center;}
+        
+        .start:hover, 
+        .aktualnosci:hover,
+        .szkolenia:hover,
+        .uslugi:hover
+        {background-color: deepskyblue; transition-duration: 200ms; color: indigo;}
+
+        .start:hover .start-opcje, 
+        .aktualnosci:hover .aktualnosci-opcje,
+        .szkolenia:hover .szkolenia-opcje,
+        .uslugi:hover .uslugi-opcje
+        {display: block; background-color: indigo; height: 35px; width: 180px; color: white; margin-top: 15px; margin-bottom: -16px; padding-top: 15px; border: solid 1px white;}
+        
+        .start:hover .start-opcje:hover,
+        .aktualnosci:hover .aktualnosci-opcje:hover,
+        .szkolenia:hover .szkolenia-opcje:hover,
+        .uslugi:hover .uslugi-opcje:hover
+        {background-color: deepskyblue; transition-duration: 200ms;}
+
+    </style>
+</head>
+
+<body style="font-family: lato;">
+    <div id="menu">
+        <div class="start">Start
+            <div class="start-opcje">menu</div>
+            <div class="start-opcje">start</div>
+            <div class="start-opcje">o nas</div>
+        </div>
+
+        <div class="aktualnosci">Aktualności
+            <div class="aktualnosci-opcje">dzisiejsze</div>
+            <div class="aktualnosci-opcje">wczorajsze</div>
+            <div class="aktualnosci-opcje">jutrzejsze</div>
+        </div>
+
+        <div class="szkolenia">Szkolenia
+            <div class="szkolenia-opcje">poradniki</div>
+            <div class="szkolenia-opcje">tutoriale</div>
+            <div class="szkolenia-opcje">kursy</div>
+        </div>
+
+        <div class="uslugi">Usługi
+            <div class="uslugi-opcje">fotografia</div>
+            <div class="uslugi-opcje">webdeveloping</div>
+            <div class="uslugi-opcje">grafika</div>
+        </div>
+    </div>
+
+    <ul id="lista"> 
+        <li>
+            <div>Zwierzęta</div>
+            <ul>
+                <li><div>Morskie</div></li>
+                <li><div>Lądowe</div></li>
+                <li><div>Powietrzne</div></li>
+            </ul>
+        </li>
+
+        <li>
+            <div>Rośliny</div>
+            <ul>
+                <li><div>Glony</div></li>
+                <li><div>Kwiaty</div></li>
+                <li><div>Drzewa</div></li>
+            </ul>
+        </li>
+
+        <li>
+            <div>Grzyby</div>
+            <ul>
+                <li><div>Trujące</div></li>
+                <li><div>Niejadalne</div></li>
+                <li><div>Jadalne</div></li>
+            </ul>
+        </li>
+    </ul>
+
+    <p style="float: right;">Kacper Węgrzyn 3TP</p>
+</body>
