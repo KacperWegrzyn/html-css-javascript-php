@@ -1,0 +1,9 @@
+body{font-family: Helvetica;}
+.lewy_i_prawy_blok_banera{background-color: rgb(70, 130, 180); color: white; width: 25%; height: 80px; float: left;}
+#srodkowy_blok_banera{background-color: rgb(70, 130, 180); color: white; width: 50%; height: 80px; text-align: center; float: left;}
+main{background-color: rgb(224, 255, 255); padding: 40px; padding-top: 120px;}
+.blok_lewy_i_prawy{background-color: rgb(70, 130, 180); color: white; width: 50%; height: 200px; text-align: center; float: left;}
+footer{background-color: rgb(224, 255, 255);}
+table{border: 1px solid blue; width: 100%; border-collapse: collapse;}
+tbody tr td{border: 1px solid blue;}
+thead tr td{border: 1px solid blue; background-color: blue; color: white;}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    kalkulacja.html
+
+    <a href="index.html"><img src="../egzamin3/ryba1.jpg"></a><br><hr><br>
+
+    <label for="dystans">dystans do przejechania w km:</label><br>
+    <input type="number" name="dystans" id="dystans"><br>
+    <label for="spalanie">spalanie samochodu w l/100km:</label><br>
+    <input type="number" name="spalanie" id="spalanie"><br>
+    <button type="submit" id="oblicz">OBLICZ</button><br>
+    <p id="p"></p>
+
+    <script>
+        const oblicz = document.getElementById("oblicz");
+        oblicz.addEventListener("click", ()=>{
+            let dystans = document.getElementById("dystans").value;
+            let spalanie = document.getElementById("spalanie").value;
+            let p = document.getElementById("p");
+            
+            let paliwo = spalanie * (dystans/100);
+            
+            p.innerHTML = paliwo;
+        });
+    </script>
+</body>
+</html>

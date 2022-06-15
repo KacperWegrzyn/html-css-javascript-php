@@ -1,0 +1,10 @@
+#banner{color: white; text-align: center; height: 330px;}
+section{display: block; float: left; color: white; text-align: center; width:  170px; margin: 5px; border: 1px solid white; border-radius: 15px;}
+section:hover{background-color: white; color: black;}
+#main{color: white;}
+#lewy{display: block; float: left; background-color: whitesmoke; width: 30%; height: 150px; text-align: center;}
+#prawy{display: block; float: left; background-color: whitesmoke; width: 70%; height: 150px;}
+body{font-family: Verdana; background-color: seagreen;}
+h3{text-align: center; letter-spacing: 6px; text-transform: capitalize;}
+#div{background-color: whitesmoke;}
+#img{display: block; margin: 0 auto;}
